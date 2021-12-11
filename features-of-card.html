@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features Of Card</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="css/wemet.css">
+</head>
+
+<body>
+    <div class="main-body">
+        <!--====================== navbar start =======================-->
+        <nav class="navbar navbar-expand-lg navbar-light p-3">
+            <div class="logo">
+                <img src="image/logo.png" alt="logo" class="logo-main img-fluid mt-3">
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <!-- <a class="nav-link" href="#custom">Customizable</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="order.html">order</a>
+                        <!-- <a class="nav-link" href="#bookmark">Bookmarks</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="compatibility.html">compatibility</a>
+                        <!-- <a class="nav-link" href="#QR">QR Code</a>  -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="features.html">features</a>
+                        <!-- <a class="nav-link" href="#custom-feed">Feed</a>  -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="features-of-card.html">features of card</a>
+                        <!-- <a class="nav-link" href="#chat">chat</a> -->
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#email">email</a>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#createCard">Create Card</a>
+                    </li> -->
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="login-btn">customer login</button>
+                    <button class="join-btn login-btn">admin login</button>
+                </form>
+            </div>
+        </nav>
+        <!--====================== navbar end =======================-->
+        <!--================= mian section strat ==========================-->
+        <main>
+            <!-- create card section  -->
+            <section id="createCard">
+                <div class="wizard">
+                    <div class="wizard-inner">
+                        <div class="connecting-line"></div>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
+                                    <span class="round-tab">
+                                <!-- <i class="fas fa-edit    "></i> -->
+                                <i class="fas fa-folder    "></i>
+                            </span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="disabled">
+                                <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Step 2">
+                                    <span class="round-tab">
+                                <i class="fas fa-edit    "></i>
+                            </span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="disabled">
+                                <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Step 3">
+                                    <span class="round-tab">
+                                <!-- <i class="glyphicon glyphicon-picture"></i> -->
+                                <i class="fas fa-image    "></i>
+                            </span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="disabled">
+                                <a href="#step4" data-toggle="tab" aria-controls="step4" role="tab" title="Step 4">
+                                    <span class="round-tab">
+                                <!-- <i class="glyphicon glyphicon-picture"></i> -->
+                                <i class="fas fa-book-open    "></i>
+                            </span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="disabled">
+                                <a href="#step5" data-toggle="tab" aria-controls="step5" role="tab" title="Step 5">
+                                    <span class="round-tab">
+                                <!-- <i class="glyphicon glyphicon-picture"></i> -->
+                                <i class="fas fa-briefcase    "></i>
+                            </span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="disabled">
+                                <a href="#step6" data-toggle="tab" aria-controls="step6" role="tab" title="Step 6">
+                                    <span class="round-tab">
+                                 <!-- <i class="glyphicon glyphicon-picture"></i> -->
+                                <i class="fas fa-clock    "></i>
+                            </span>
+                                </a>
+                            </li>
+                            <li role="presentation" class="disabled">
+                                <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="Complete">
+                                    <span class="round-tab">
+                                <!-- <i class="glyphicon glyphicon-ok"></i> -->
+                                <i class="fas fa-check-circle    "></i>
+                            </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form role="form">
+                        <div class="tab-content">
+                            <div class="tab-pane active" role="tabpanel" id="step1">
+                                <div class="step1-form">
+                                    <div class="form-body">
+                                        <div class="row">
+                                            <div class="form-holder">
+                                                <div class="form-content">
+                                                    <div class="form-items">
+                                                        <h3>Register Today</h3>
+                                                        <p>Fill in the data below.</p>
+                                                        <form class="requires-validation" novalidate>
+
+                                                            <div class="col-md-12">
+                                                                <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                                                                <div class="valid-feedback">Username field is valid!</div>
+                                                                <div class="invalid-feedback">Username field cannot be blank!</div>
+                                                            </div>
+
+                                                            <div class="col-md-12">
+                                                                <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                                                                <div class="valid-feedback">Email field is valid!</div>
+                                                                <div class="invalid-feedback">Email field cannot be blank!</div>
+                                                            </div>
+
+                                                            <div class="col-md-12">
+                                                                <select class="form-select mt-3" required>
+                                                          <option selected disabled value="">Position</option>
+                                                          <option value="jweb">Junior Web Developer</option>
+                                                          <option value="sweb">Senior Web Developer</option>
+                                                          <option value="pmanager">Project Manager</option>
+                                                   </select>
+                                                                <div class="valid-feedback">You selected a position!</div>
+                                                                <div class="invalid-feedback">Please select a position!</div>
+                                                            </div>
+
+
+                                                            <div class="col-md-12">
+                                                                <input class="form-control" type="password" name="password" placeholder="Password" required>
+                                                                <div class="valid-feedback">Password field is valid!</div>
+                                                                <div class="invalid-feedback">Password field cannot be blank!</div>
+                                                            </div>
+
+
+                                                            <div class="col-md-12 mt-3">
+                                                                <label class="mb-3 mr-1" for="gender">Gender: </label>
+
+                                                                <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+                                                                <label class="btn btn-sm btn-outline-secondary" for="male">Male</label>
+
+                                                                <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+                                                                <label class="btn btn-sm btn-outline-secondary" for="female">Female</label>
+
+                                                                <input type="radio" class="btn-check" name="gender" id="secret" autocomplete="off" required>
+                                                                <label class="btn btn-sm btn-outline-secondary" for="secret">Secret</label>
+                                                                <div class="valid-feedback mv-up">You selected a gender!</div>
+                                                                <div class="invalid-feedback mv-up">Please select a gender!</div>
+                                                            </div>
+
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                                                <label class="form-check-label">I confirm that all data are correct</label>
+                                                                <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                                                            </div>
+
+
+                                                            <!-- <div class="form-button mt-3">
+                                                        <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                                                    </div> -->
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="list-inline pull-right">
+                                    <li><button type="button" class="btn btn-primary next-step">Save and continue</button></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="step2">
+                                <h3>Step 2</h3>
+                                <p>This is step 2</p>
+                                <ul class="list-inline pull-right">
+                                    <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+                                    <li><button type="button" class="btn btn-primary next-step">Save and continue</button></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="step3">
+                                <h3>Step 3</h3>
+                                <p>This is step 3</p>
+                                <ul class="list-inline pull-right">
+                                    <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+                                    <li><button type="button" class="btn btn-default next-step">Skip</button></li>
+                                    <li><button type="button" class="btn btn-primary btn-info-full next-step">Save and continue</button></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="step4">
+                                <h3>Step 4</h3>
+                                <p>This is step 3</p>
+                                <ul class="list-inline pull-right">
+                                    <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+                                    <li><button type="button" class="btn btn-default next-step">Skip</button></li>
+                                    <li><button type="button" class="btn btn-primary btn-info-full next-step">Save and continue</button></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="step5">
+                                <h3>Step 4</h3>
+                                <p>This is step 3</p>
+                                <ul class="list-inline pull-right">
+                                    <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+                                    <li><button type="button" class="btn btn-default next-step">Skip</button></li>
+                                    <li><button type="button" class="btn btn-primary btn-info-full next-step">Save and continue</button></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="step6">
+                                <h3>Step 4</h3>
+                                <p>This is step 3</p>
+                                <ul class="list-inline pull-right">
+                                    <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+                                    <li><button type="button" class="btn btn-default next-step">Skip</button></li>
+                                    <li><button type="button" class="btn btn-primary btn-info-full next-step">Save and continue</button></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="complete">
+                                <h3>Complete</h3>
+                                <p>You have successfully completed all steps.</p>
+                                <p><a href="https://bit.ly/3m9avif" target="_blank">Subscribe me on Youtube</a></p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+        <!--================= mian section end ==========================-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
