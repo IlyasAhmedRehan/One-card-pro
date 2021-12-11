@@ -86,8 +86,12 @@ html {
     margin: 0 auto;
 } */
 
+nav .navbar-light .navbar-nav .nav-link:hover {
+    color: #4f5da9 !important;
+}
+
 .right-detail p {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
     margin-bottom: 45px;
     font-family: var(---font-family--gilroy);
