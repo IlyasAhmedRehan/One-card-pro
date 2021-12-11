@@ -25,6 +25,14 @@ $(document).ready(function() {
         prevTab($active);
 
     });
+
+
+    $('a[title]').tooltip();
+
+    $('#myCarousel').carousel({
+        interval: 3000,
+    })
+
 });
 
 function nextTab(elem) {
